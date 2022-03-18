@@ -1,0 +1,50 @@
+.game {
+    min-height: 100vh;
+    width: 100%;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.game > h1 {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.start-btn {
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    color: white;
+    outline: none;
+    background: #222222;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.start-btn:hover {
+    background: white;
+    color: #222222;
+    transition: 0.3s all ease;
+}
+
+.info {
+    bottom: 80px;
+    position: absolute;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+    font-size: 20px;
+}
